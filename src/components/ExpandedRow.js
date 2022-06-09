@@ -22,7 +22,9 @@ const ExpandedRow = ({ row, columns, colspan, callbacks }) => {
 
         <tr className="expanded-row" key='expandedRow'>
             <td colSpan={ colspan }>
-                { listOfHiddenAttributes }
+                <div>
+                    { listOfHiddenAttributes }
+                </div>
             </td>
         </tr>
     );
